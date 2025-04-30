@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cyivugiza Primary School</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#about">About us</a>
+      <a href="#stats">Statistics</a>
+      <a href="#map">Map</a>
+      <a href="#gallery">Gallery</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <img src="images/Gs_cyivu.jpg" alt="slide1" />
+    <img src="images/Gs cyivugiza.jpg" alt="slide2" />
+    <img src="images/gs_cyivugiza.jpg" alt="slide3" />
+    <h1>CYIVUGIZA PRIMARY SCHOOL</h1>
+  </div>
+
+  <section id="about" class="about">
+    <img src="images/Gs cyivugiza.jpg" alt="About Cyivugiza School" />
+    <div class="about-text">
+      <h2>About Cyivugiza Primary school</h2>
+      <p>
+        Welcome to GS Cyivugiza, a vibrant learning community in Nyamirambo, Kigali. With over 2,700 students, we are more than just a school, we are a family committed to nurturing young minds and shaping future leaders.<br><br>
+        For years, we have provided quality education, embracing both tradition and innovation. While Kinyarwanda and French have historically been part of our curriculum, we continually adapt to give our students the best learning experience. Beyond academics, we believe in shaping well-rounded individuals through community initiatives and partnerships, such as working with the Rwanda Girl Guides Association to promote awareness and social impact.<br><br>
+        At GS Cyivugiza, we inspire, empower, and prepare students for a brighter future.
+      </p>
+    </div>
+  </section>
+
+  <section id="stats">
+    <div class="stats">
+      <div><strong style="color: blue;">2700</strong><br />Students</div>
+      <div><strong style="color: blue;">35</strong><br />Teachers</div>
+      <div><strong style="color: blue;">7</strong><br />Other Workers</div>
+    </div>
+  </section>
+
+  <section id="map">
+    <div class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.7186794300545!2d30.044847674041517!3d-1.9817367359230305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca5ec47904211%3A0xb2c5315fd99628d1!2sGS%20Cyivugiza!5e0!3m2!1sen!2srw!4v1712576185945!5m2!1sen!2srw"
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2 style="text-align: center;">GALLERY</h2>
+    <div class="gallery">
+      <img src="images/cyiv_primary.JPG" alt="Gallery Image 1" />
+      <img src="images/cyivugiza_ps.JPG" alt="Gallery Image 2" />
+      <img src="images/CYIVUGIZA.jpg" alt="Gallery Image 3" />
+      <img src="images/Gs cyivugiza.jpg" alt="Gallery Image 4" />
+      <img src="images/Gs_cyivu.jpg" alt="Gallery Image 5" />
+      <img src="images/gs_cyivugiza.jpg" alt="Gallery Image 6" />
+    </div>
+  </section>
+
+  <section class="contact-section" id="contact">
+    <div class="contact-header">
+      <h2>CONTACT</h2>
+      <p>PLEASE REACH US ON</p>
+    </div>
+
+    <div class="contact-boxes">
+      <div class="contact-box">
+        <strong>ADDRESS</strong><br />
+        634 KIGALI RWANDA
+      </div>
+      <div class="contact-box">
+        <strong>EMAIL</strong><br />
+        cyivugizaprimaryschool@gmail.com
+      </div>
+      <div class="contact-box">
+        <strong>PHONE</strong><br />
+         +250 000 000 000
+      </div>
+    </div>
+
+    <div class="contact-form-container">
+      <form class="contact-form">
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+        </div>
+
+        <label for="message">How can we help?</label>
+        <textarea id="message" rows="4" required></textarea>
+
+        <div>
+            <label class="custom-checkbox-container">
+                <input type="checkbox" id="agree" />
+                <span class="checkmark"></span>
+                I agree to the <a href="#">Terms & Conditions</a>
+              </label>
+          </div>
+
+        <button type="submit">Send a request</button>
+      </form>
+
+      <div class="subscribe-box">
+        <h3>Cyivugiza <br />Primary School</h3>
+        <p>please subscribe</p>
+        <input type="email" placeholder="Email" />
+        <button type="submit">Subscribe*</button>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
